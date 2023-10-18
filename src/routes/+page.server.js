@@ -4,6 +4,7 @@ export const config = {
   },
 };
 
+export const prerender = "auto";
 
 export async function load() {
   const res = await fetch(`https://randomuser.me/api/`);
