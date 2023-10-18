@@ -1,7 +1,7 @@
 export const config = {
   runtime: "nodejs18.x",
   isr: {
-    expiration: 60,
+    expiration: 20,
     bypassToken: "REPLACE_ME_WITH_SECRET_VALUE",
   },
 };
